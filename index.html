@@ -5,27 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
         Header Logo
         <ul class="header-links">
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
+            <li><a href="">header link one</a></li>
+            <li><a href="">header link two</a></li>
+            <li><a href="">header link three</a></li>
         </ul>
     </div>
     <div class="hero">
-        <div class="hero-main">
-            This website is awesome
+        <div class="hero-text">
+            <div class="hero-main">
+                This website is awesome
+            </div>
+            <div class="hero-secondary">
+                This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+            </div>
+            <button>Sign up</button>
         </div>
-        <div class="hero-secondary">
-            This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
-        </div>
-        <img src="/images/surfing.jpeg" alt="Should be a surfing picture">
+        <img src="/images/surfing.jpeg" alt="Should be a surfing picture" class="surfing-image">
     </div>
     <div class="information">
-        Some random infomration.
+        <p class="information-header">Some random information.</p>
         <div class="cards-container">
             <div class="card">
                 <img src="" alt="handstand image"> <!-- need to add src for image and also look up how to apply class to image -->
