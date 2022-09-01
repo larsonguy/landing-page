@@ -74,9 +74,95 @@ button {
     width: 400px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
 .information-header {
     color: #1F2937;
     font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+}
+
+.card-subtext {
+    font-size: 10px;
+    text-align: center;
+}
+
+.card > img {
+    width: 150px;
+    border-radius: 5px;
+    border: 3px solid #3882f6;
+}
+
+.quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 50px 128px 50px 128px;
+}
+
+.quote-text {
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+
+}
+
+.quote-credit{
+    text-align: right;
+    font-weight: bold;
+    padding-right: 70px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    padding: 30px 50px;
+    margin: 75px;
+    display: flex;
+    color: #f9faf8;
+    border-radius: 5px;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.call-to-action .call-to-action-bold {
+    font-weight: bold;
+}
+
+.call-to-action-sub {
+    font-size: 10px;
+}
+
+.call-to-action button {
+    border: 2px solid #e5e7eb;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 25px 0px 25px 0px;
 }
 
 
